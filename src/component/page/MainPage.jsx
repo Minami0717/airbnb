@@ -1,6 +1,9 @@
+import data from '../../data.json'
+import RoomList from '../list/RoomList';
+
 function MainPage(props) {
     return (
-        <div>test</div>
+        <RoomList rooms={data}></RoomList>
     )
 }
 
