@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import MainPage from './component/page/MainPage';
+import MainPage from './pages/MainPage';
 import styled from 'styled-components';
 
 const MainTitleText = styled.p`

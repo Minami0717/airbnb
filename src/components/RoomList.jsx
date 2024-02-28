@@ -4,6 +4,7 @@ import RoomListItem from "./RoomListItem";
 const Wrapper = styled.div`
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    padding: 30px;
 `;
 
 function RoomList(props) {
