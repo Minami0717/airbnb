@@ -10,7 +10,7 @@ function Header(props) {
             </div>
             <div className="search-wrap">
                 <div className="search">
-                    
+                    a
                 </div>
             </div>
         </HeaderWrap>
