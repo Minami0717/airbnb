@@ -1,9 +1,18 @@
+import styled from 'styled-components';
+import Header from '../components/Header';
+import RoomList from '../components/RoomList';
 import data from '../data.json'
-import RoomList from '../components/list/RoomList';
+
+const Wrapper = styled.div`
+
+`;
 
 function MainPage(props) {
     return (
-        <RoomList rooms={data}></RoomList>
+        <Wrapper>
+            <Header />
+            <RoomList rooms={data} />
+        </Wrapper>
     )
 }
 
